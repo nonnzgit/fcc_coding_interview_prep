@@ -27,9 +27,8 @@ function permAlone(str) {
     if (!regex.test(word)) count++;
   });
 
+  console.log(count);
   return count;
 }
 
-permAlone('aac');
-
-console.log(permAlone('aac')); //Should return 2
+permAlone('aac'); //Should return 2

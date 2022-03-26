@@ -30,6 +30,7 @@ function updateInventory(arr1, arr2) {
     return 0;
   });
 
+  console.log(mappedObj.map(elem => provResult[elem[1]]));
   return mappedObj.map(elem => provResult[elem[1]]);
 }
 

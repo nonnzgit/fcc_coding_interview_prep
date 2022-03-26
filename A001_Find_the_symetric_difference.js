@@ -27,6 +27,8 @@ function sym(...args) {
       prevArr = extractDif(prevArr, args[i]);
     }
   }
+
+  console.log(prevArr);
   return prevArr;
 }
 

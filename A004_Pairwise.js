@@ -18,6 +18,8 @@ function pairwise(arr, arg) {
       }
     });
   });
+
+  console.log(result);
   return result;
 }
 
